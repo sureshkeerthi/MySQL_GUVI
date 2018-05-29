@@ -1,0 +1,30 @@
+create database hello;
+use hello;
+create table hello1
+(
+  Last_name varchar(300),
+  First_name varchar(600),
+  Nationality varchar(300),
+  state varchar(600),
+  age int,
+  years int,
+  working_days int,
+  salary float,
+  height float,
+  weight float
+   );
+
+insert into hello1 values("suresh","keerthi","Indian","Tn",16,2015,28,10000.500,158.20,45.67);
+insert into hello1 values("sri","kaviya","American","mac",17,2018,29,10987.456,160.40,48.90);
+insert into hello1 values("lakshmi","dhivya","Indian","hyd",18,2019,30,109907.406,180.40,50.60);
+insert into hello1 values("devi","saranya","Japnese","tok",19,2020,31,10987.456,152.90,51.90);
+insert into hello1 values("kumar","raj","Indian","Ap",20,2021,15,32467.90,145.04,56.64);
+insert into hello1 values("surya","jai","Indian","up",21,2022,20,55413.026,78.9,38.90);
+insert into hello1 values("dharani","bhava","Indian","kerala",22,2023,26,5396.896,167.40,70.95);
+insert into hello1 values("devi","sri","Indian","delhi",23,2024,19,2135677.4568,185.90,25.70);
+insert into hello1 values("raja","dinesh","Indian","punjab",24,2025,45,4568767.9864,149.040,31.67);
+insert into hello1 values("rai","Aishwarya","Indian","mumbai",25,2026,10,189756.4006,153.90,65.20);
+select * from hello1;
+select  first_name from hello1 ;
+select  last_name from hello1 where state="tn";
+select  working_days from hello1 where first_name="raj";
